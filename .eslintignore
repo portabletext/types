@@ -1,4 +1,4 @@
 /dist
 /coverage
-/demo/dist
+/docs
 .nyc_output
