@@ -10,6 +10,10 @@ TypeScript types for Portable Text
 npm install --save-dev @portabletext/types
 ```
 
+## Documentation
+
+See [https://portabletext.github.io/types/](https://portabletext.github.io/types/)
+
 ## Usage
 
 ```ts
