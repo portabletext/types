@@ -7,7 +7,7 @@ TypeScript types for Portable Text
 ## Installation
 
 ```
-npm install --save-dev @portabletext/types
+npm install --save @portabletext/types
 ```
 
 ## Documentation
@@ -17,7 +17,11 @@ See [https://portabletext.github.io/types/](https://portabletext.github.io/types
 ## Usage
 
 ```ts
-import type {PortableTextBlock, PortableTextSpan} from '@portabletext/types'
+import type {
+  PortableTextBlock,
+  PortableTextSpan,
+  PortableTextLink
+} from '@portabletext/types'
 
 const headingSpan: PortableTextSpan = {
   _type: 'span',
@@ -52,6 +56,20 @@ const myBlocks: PortableTextBlock[] = [
     ],
   },
 ]
+
+/**
+ * Very specific Portable Text block, where:
+ * - Only link and author references (custom) are allowed as marks
+ * - Only Portable Text spans and `localCurrency` objects can be inline children
+ * - Blocks can only be of style `normal` or `call-to-action` (custom)
+ * - List items can only be of type `bullet`
+ */
+type MyCustomBlock = PortableTextListItemBlock<
+  PortableTextLink | AuthorReference, // `M`: Marks
+  PortableTextSpan | LocalCurrency,   // `C`: Children
+  'normal' | 'call-to-action',        // `S`: Styles
+  'bullet'                            // `L`: List item types
+>
 ```
 
 ## License

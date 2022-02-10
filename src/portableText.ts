@@ -7,10 +7,14 @@ import type {ArbitraryTypedObject, TypedObject} from './related.js'
  *
  * @template M Mark types that be used for text spans
  * @template C Types allowed as children of this block
+ * @template S Allowed block styles (eg `normal`, `blockquote`, `h3` etc)
+ * @template L Allowed list item types (eg `number`, `bullet` etc)
  */
 export interface PortableTextBlock<
   M extends PortableTextMarkDefinition = PortableTextMarkDefinition,
-  C extends TypedObject = ArbitraryTypedObject | PortableTextSpan
+  C extends TypedObject = ArbitraryTypedObject | PortableTextSpan,
+  S extends string = PortableTextBlockStyle,
+  L extends string = PortableTextListItemType
 > extends TypedObject {
   /**
    * Type name identifying this as a portable text block.
@@ -44,13 +48,13 @@ export interface PortableTextBlock<
    * Visual style of the block
    * Common values: 'normal', 'blockquote', 'h1'...'h6'
    */
-  style?: PortableTextBlockStyle
+  style?: S
 
   /**
    * If this block is a list item, identifies which style of list item this is
    * Common values: 'bullet', 'number', but can be configured
    */
-  listItem?: PortableTextListItemType
+  listItem?: L
 
   /**
    * If this block is a list item, identifies which level of nesting it belongs within
@@ -60,12 +64,19 @@ export interface PortableTextBlock<
 
 /**
  * Strictly speaking the same as a portable text block, but `listItem` is required
+ *
+ * @template M Mark types that be used for text spans
+ * @template C Types allowed as children of this block
+ * @template S Allowed block styles (eg `normal`, `blockquote`, `h3` etc)
+ * @template L Allowed list item types (eg `number`, `bullet` etc)
  */
 export interface PortableTextListItemBlock<
   M extends PortableTextMarkDefinition = PortableTextMarkDefinition,
-  C extends TypedObject = PortableTextSpan
-> extends Omit<PortableTextBlock<M, C>, 'listItem'> {
-  listItem: string
+  C extends TypedObject = PortableTextSpan,
+  S extends string = PortableTextBlockStyle,
+  L extends string = PortableTextListItemType
+> extends Omit<PortableTextBlock<M, C, S, L>, 'listItem'> {
+  listItem: L
 }
 
 /**
@@ -135,4 +146,12 @@ export interface PortableTextSpan {
    * decorator (a simpler mark without any properties - for instance `strong` or `em`)
    */
   marks?: string[]
+}
+
+/**
+ * The simplest representation of a link
+ */
+export interface PortableTextLink {
+  _type: 'link'
+  href: string
 }
