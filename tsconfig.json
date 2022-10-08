@@ -2,7 +2,12 @@
   "compilerOptions": {
     "strict": true,
     "lib": ["ES2020"],
+    "rootDir": ".",
     "outDir": "dist",
-    "module": "ES2020"
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "emitDeclarationOnly": true
   }
 }
