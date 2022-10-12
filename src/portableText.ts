@@ -5,10 +5,11 @@ import type {ArbitraryTypedObject, TypedObject} from './related.js'
  * In other words, it is a container for text, that can have a visual style associated with it.
  * The actual text value is stored in portable text spans inside of the `childen` array.
  *
- * @template M Mark types that be used for text spans
- * @template C Types allowed as children of this block
- * @template S Allowed block styles (eg `normal`, `blockquote`, `h3` etc)
- * @template L Allowed list item types (eg `number`, `bullet` etc)
+ * @typeParam M - Mark types that be used for text spans
+ * @typeParam C - Types allowed as children of this block
+ * @typeParam S - Allowed block styles (eg `normal`, `blockquote`, `h3` etc)
+ * @typeParam L - Allowed list item types (eg `number`, `bullet` etc)
+ * @public
  */
 export interface PortableTextBlock<
   M extends PortableTextMarkDefinition = PortableTextMarkDefinition,
@@ -65,10 +66,11 @@ export interface PortableTextBlock<
 /**
  * Strictly speaking the same as a portable text block, but `listItem` is required
  *
- * @template M Mark types that be used for text spans
- * @template C Types allowed as children of this block
- * @template S Allowed block styles (eg `normal`, `blockquote`, `h3` etc)
- * @template L Allowed list item types (eg `number`, `bullet` etc)
+ * @typeParam M - Mark types that be used for text spans
+ * @typeParam C - Types allowed as children of this block
+ * @typeParam S - Allowed block styles (eg `normal`, `blockquote`, `h3` etc)
+ * @typeParam L - Allowed list item types (eg `number`, `bullet` etc)
+ * @public
  */
 export interface PortableTextListItemBlock<
   M extends PortableTextMarkDefinition = PortableTextMarkDefinition,
@@ -81,6 +83,7 @@ export interface PortableTextListItemBlock<
 
 /**
  * A set of _common_ (but not required/standarized) block styles
+ * @public
  */
 export type PortableTextBlockStyle =
   | 'normal'
@@ -95,6 +98,7 @@ export type PortableTextBlockStyle =
 
 /**
  * A set of _common_ (but not required/standardized) list item types
+ * @public
  */
 export type PortableTextListItemType = 'bullet' | 'number' | string
 
@@ -102,6 +106,7 @@ export type PortableTextListItemType = 'bullet' | 'number' | string
  * A mark definition holds information for marked text. For instance, a text span could reference
  * a mark definition for a hyperlink, a geoposition, a reference to a document or anything that is
  * representable as a JSON object.
+ * @public
  */
 export interface PortableTextMarkDefinition {
   /**
@@ -123,6 +128,7 @@ export interface PortableTextMarkDefinition {
 
 /**
  * A Portable Text Span holds a chunk of the actual text value of a Portable Text Block
+ * @public
  */
 export interface PortableTextSpan {
   /**
@@ -150,6 +156,7 @@ export interface PortableTextSpan {
 
 /**
  * The simplest representation of a link
+ * @public
  */
 export interface PortableTextLink {
   _type: 'link'

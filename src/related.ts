@@ -1,6 +1,7 @@
 /**
  * Any object with an `_type` property (which is required in portable text arrays),
  * as well as a _potential_ `_key` (highly encouraged)
+ * @public
  */
 export interface TypedObject {
   /**
@@ -18,5 +19,6 @@ export interface TypedObject {
 
 /**
  * Any object with an `_type` that is a string. Can hold any other properties.
+ * @public
  */
 export type ArbitraryTypedObject = TypedObject & {[key: string]: any}
