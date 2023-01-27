@@ -1,6 +1,6 @@
 # @portabletext/types
 
-[![npm version](https://img.shields.io/npm/v/@portabletext/types.svg?style=flat-square)](https://www.npmjs.com/package/@portabletext/types)[![Build Status](https://img.shields.io/github/workflow/status/portabletext/types/test/main.svg?style=flat-square)](https://github.com/portabletext/types/actions?query=workflow%3Atest)
+[![npm version](https://img.shields.io/npm/v/@portabletext/types.svg?style=flat-square)](https://www.npmjs.com/package/@portabletext/types)[![Build Status](https://img.shields.io/github/actions/workflow/status/portabletext/types/test.yml?branch=main&style=flat-square)](https://github.com/portabletext/types/actions?query=workflow%3Atest)
 
 TypeScript types for Portable Text
 
