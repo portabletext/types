@@ -34,11 +34,17 @@
     "src"
   ],
   "scripts": {
-    "docs": "typedoc",
-    "test": "eslint . && run-s build && node test/test.js",
+    "build": "run-s clean pkg:build pkg:check",
+    "clean": "rimraf dist",
+    "docs:build": "typedoc",
+    "format": "prettier --write --cache --ignore-unknown .",
+    "lint": "eslint . --ext .cjs,.js,.jsx,.mjs,.ts,.tsx",
+    "node:test": "node test/test.js",
+    "pkg:build": "pkg-utils build --strict",
+    "pkg:check": "pkg-utils --strict",
     "prepare": "husky install",
-    "prepublishOnly": "run-s build && run-s test",
-    "build": "pkg-utils build"
+    "prepublishOnly": "run-s build test",
+    "test": "run-s lint build node:test"
   },
   "commitlint": {
     "extends": [
@@ -108,6 +114,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
     "prettier-plugin-packagejson": "^2.4.0",
+    "rimraf": "^4.1.2",
     "semantic-release": "^20.0.4",
     "typedoc": "^0.22.11",
     "typescript": "^4.5.4"
