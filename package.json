@@ -12,7 +12,8 @@
       "source": "./src/index.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "sideEffects": false,
   "engines": {
@@ -38,7 +39,7 @@
   "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT",
   "devDependencies": {
-    "@sanity/pkg-utils": "^1.15.0",
+    "@sanity/pkg-utils": "^2.2.3",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
     "eslint": "^7.32.0",
