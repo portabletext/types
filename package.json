@@ -103,7 +103,7 @@
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
     "@sanity/pkg-utils": "^2.3.3",
-    "@sanity/semantic-release-preset": "^4.0.0",
+    "@sanity/semantic-release-preset": "^4.1.1",
     "@types/babel__core": "^7.20.0",
     "@typescript-eslint/eslint-plugin": "^5.7.0",
     "@typescript-eslint/parser": "^5.7.0",
@@ -117,7 +117,7 @@
     "prettier": "^2.5.1",
     "prettier-plugin-packagejson": "^2.4.0",
     "rimraf": "^4.1.2",
-    "semantic-release": "^20.0.4",
+    "semantic-release": "^21.0.5",
     "typedoc": "^0.22.11",
     "typescript": "^4.5.4"
   },
