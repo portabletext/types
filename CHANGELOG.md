@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/portabletext/types/compare/v2.0.3...v2.0.4) (2023-06-23)
+
+### Bug Fixes
+
+- bump semantic-release ([40a1acc](https://github.com/portabletext/types/commit/40a1acc66e34477699b2a08c5d6df25f02d8c70e))
+
 ## [2.0.3](https://github.com/portabletext/types/compare/v2.0.2...v2.0.3) (2023-06-23)
 
 ### Bug Fixes
