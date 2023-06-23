@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.5](https://github.com/portabletext/types/compare/v2.0.4...v2.0.5) (2023-06-23)
+
+### Bug Fixes
+
+- update TypeScript to v5 ([f0266bf](https://github.com/portabletext/types/commit/f0266bf1fd73afed415039e7ae2f977b14569d5e))
+
 ## [2.0.4](https://github.com/portabletext/types/compare/v2.0.3...v2.0.4) (2023-06-23)
 
 ### Bug Fixes
