@@ -15,7 +15,7 @@ export interface PortableTextBlock<
   M extends PortableTextMarkDefinition = PortableTextMarkDefinition,
   C extends TypedObject = ArbitraryTypedObject | PortableTextSpan,
   S extends string = PortableTextBlockStyle,
-  L extends string = PortableTextListItemType
+  L extends string = PortableTextListItemType,
 > extends TypedObject {
   /**
    * Type name identifying this as a portable text block.
@@ -76,7 +76,7 @@ export interface PortableTextListItemBlock<
   M extends PortableTextMarkDefinition = PortableTextMarkDefinition,
   C extends TypedObject = PortableTextSpan,
   S extends string = PortableTextBlockStyle,
-  L extends string = PortableTextListItemType
+  L extends string = PortableTextListItemType,
 > extends Omit<PortableTextBlock<M, C, S, L>, 'listItem'> {
   listItem: L
 }
