@@ -5,6 +5,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.6](https://github.com/portabletext/types/compare/v2.0.5...v2.0.6) (2023-08-23)
+
+### Bug Fixes
+
+- add provenance ([63e2bae](https://github.com/portabletext/types/commit/63e2baedf55296256f748ca556c3195151775ece))
+
 ## [2.0.5](https://github.com/portabletext/types/compare/v2.0.4...v2.0.5) (2023-06-23)
 
 ### Bug Fixes
