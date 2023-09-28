@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.7](https://github.com/portabletext/types/compare/v2.0.6...v2.0.7) (2023-09-28)
+
+
+### Bug Fixes
+
+* **ci:** switch to release-please ([b13b11d](https://github.com/portabletext/types/commit/b13b11d163b594e25e1b5556a4b5456f1598d637))
+
 ## [2.0.6](https://github.com/portabletext/types/compare/v2.0.5...v2.0.6) (2023-08-23)
 
 ### Bug Fixes
