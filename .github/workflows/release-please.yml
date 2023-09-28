@@ -53,7 +53,7 @@ jobs:
         env:
           NPM_CONFIG_PROVENANCE: true
       # Publish to GitHub Pages
-      - run: pnpm run docs:build
+      - run: pnpm docs:build
         if: ${{ steps.release.outputs.releases_created }}
       - uses: peaceiris/actions-gh-pages@373f7f263a76c20808c831209c920827a82a2847 # v3
         if: ${{ steps.release.outputs.releases_created }}
