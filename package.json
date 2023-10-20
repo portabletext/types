@@ -85,8 +85,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.8.1",
-    "@commitlint/config-conventional": "^17.8.1",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "@sanity/pkg-utils": "^3.1.1",
     "@types/babel__core": "^7.20.3",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
