@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.9](https://github.com/portabletext/types/compare/v2.0.8...v2.0.9) (2024-03-16)
+
+
+### Bug Fixes
+
+* update license year ([b96c2d2](https://github.com/portabletext/types/commit/b96c2d27986d564e8a8866ad2582623a0d718892))
+
 ## [2.0.8](https://github.com/portabletext/types/compare/v2.0.7...v2.0.8) (2023-10-10)
 
 
