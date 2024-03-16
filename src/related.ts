@@ -21,4 +21,7 @@ export interface TypedObject {
  * Any object with an `_type` that is a string. Can hold any other properties.
  * @public
  */
-export type ArbitraryTypedObject = TypedObject & {[key: string]: any}
+export type ArbitraryTypedObject = TypedObject & {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  [key: string]: any
+}
