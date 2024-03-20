@@ -7,6 +7,4 @@ export default defineConfig({
       'tsdoc-undefined-tag': 'warn',
     },
   },
-
-  legacyExports: true,
 })
