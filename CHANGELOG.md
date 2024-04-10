@@ -5,6 +5,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.13](https://github.com/portabletext/types/compare/v2.0.12...v2.0.13) (2024-04-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @sanity/pkg-utils to ^6.3.0 ([#74](https://github.com/portabletext/types/issues/74)) ([88c52d4](https://github.com/portabletext/types/commit/88c52d4fd51da027dc8d64159e3df8b03ba6b205))
+
 ## [2.0.12](https://github.com/portabletext/types/compare/v2.0.11...v2.0.12) (2024-04-05)
 
 
