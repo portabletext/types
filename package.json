@@ -1,6 +1,6 @@
 {
   "name": "@portabletext/types",
-  "version": "2.0.13",
+  "version": "2.0.14-canary.0",
   "description": "Shared TypeScript definitions for core Portable Text data structures",
   "keywords": [
     "portable-text"
@@ -34,14 +34,11 @@
     "src"
   ],
   "scripts": {
-    "build": "run-s clean pkg:build pkg:check",
-    "clean": "rimraf dist",
+    "build": "pkg-utils build --strict --check --clean",
     "docs:build": "typedoc",
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint . --ext .cjs,.js,.jsx,.mjs,.ts,.tsx",
     "node:test": "node test/test.js",
-    "pkg:build": "pkg-utils build --strict",
-    "pkg:check": "pkg-utils --strict",
     "prepare": "husky install",
     "prepublishOnly": "run-s build test",
     "test": "run-s lint build node:test"
@@ -86,7 +83,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.2.2",
     "@commitlint/config-conventional": "^19.2.2",
-    "@sanity/pkg-utils": "^6.6.5",
+    "@sanity/pkg-utils": "6.7.0",
     "@types/babel__core": "^7.20.5",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
     "@typescript-eslint/parser": "^7.6.0",
@@ -99,9 +96,8 @@
     "npm-run-all2": "^5.0.2",
     "prettier": "^3.2.5",
     "prettier-plugin-packagejson": "^2.5.0",
-    "rimraf": "^5.0.1",
     "typedoc": "^0.25.13",
-    "typescript": "^5.4.5"
+    "typescript": "5.4.5"
   },
   "packageManager": "pnpm@8.15.7",
   "engines": {

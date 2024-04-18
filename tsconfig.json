@@ -1,13 +1,8 @@
 {
+  "extends": "@sanity/pkg-utils/tsconfig/strictest.json",
+  "exclude": ["docs", "dist", "node_modules", "test"],
   "compilerOptions": {
-    "strict": true,
-    "lib": ["ES2020"],
     "rootDir": ".",
-    "outDir": "dist",
-    "module": "ES2020",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "declaration": true,
-    "emitDeclarationOnly": true
+    "outDir": "dist"
   }
 }
