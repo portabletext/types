@@ -99,7 +99,7 @@
     "typedoc": "^0.25.13",
     "typescript": "5.4.5"
   },
-  "packageManager": "pnpm@9.1.0",
+  "packageManager": "pnpm@9.4.0",
   "engines": {
     "node": "^14.13.1 || >=16.0.0 || >=18.0.0"
   },
