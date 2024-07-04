@@ -83,10 +83,10 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@sanity/pkg-utils": "6.8.18",
+    "@sanity/pkg-utils": "6.10.1",
     "@types/babel__core": "^7.20.5",
-    "@typescript-eslint/eslint-plugin": "^7.11.0",
-    "@typescript-eslint/parser": "^7.11.0",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
+    "@typescript-eslint/parser": "^7.15.0",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
@@ -94,10 +94,10 @@
     "eslint-config-sanity": "^7.1.2",
     "husky": "^8.0.3",
     "npm-run-all2": "^5.0.2",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.2",
     "prettier-plugin-packagejson": "^2.5.0",
-    "typedoc": "^0.25.13",
-    "typescript": "5.4.5"
+    "typedoc": "^0.26.3",
+    "typescript": "5.5.3"
   },
   "packageManager": "pnpm@9.4.0",
   "engines": {
