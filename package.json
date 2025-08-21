@@ -43,11 +43,6 @@
     "release": "changeset publish",
     "test": "run-s lint build node:test"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "lint-staged": {
     "*": [
       "prettier --write --cache --ignore-unknown"
