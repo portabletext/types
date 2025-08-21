@@ -1,3 +1,4 @@
 dist
 docs
 pnpm-lock.yaml
+.changeset/*.md
