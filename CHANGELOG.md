@@ -1,53 +1,52 @@
 # @portabletext/types
 
-## [2.0.13](https://github.com/portabletext/types/compare/v2.0.12...v2.0.13) (2024-04-10)
+## 2.0.14
 
+### Patch Changes
+
+- [`6d05a41`](https://github.com/portabletext/types/commit/6d05a4138691c042b85e1f22112cf59f2bc3a455) Thanks [@stipsan](https://github.com/stipsan)! - Update LICENSE year to 2025
+
+## [2.0.13](https://github.com/portabletext/types/compare/v2.0.12...v2.0.13) (2024-04-10)
 
 ### Bug Fixes
 
-* **deps:** update dependency @sanity/pkg-utils to ^6.3.0 ([#74](https://github.com/portabletext/types/issues/74)) ([88c52d4](https://github.com/portabletext/types/commit/88c52d4fd51da027dc8d64159e3df8b03ba6b205))
+- **deps:** update dependency @sanity/pkg-utils to ^6.3.0 ([#74](https://github.com/portabletext/types/issues/74)) ([88c52d4](https://github.com/portabletext/types/commit/88c52d4fd51da027dc8d64159e3df8b03ba6b205))
 
 ## [2.0.12](https://github.com/portabletext/types/compare/v2.0.11...v2.0.12) (2024-04-05)
 
-
 ### Bug Fixes
 
-* **deps:** update non-major ([#67](https://github.com/portabletext/types/issues/67)) ([e75e44d](https://github.com/portabletext/types/commit/e75e44d1c6b8657ffc54f33304afa09c5948d956))
+- **deps:** update non-major ([#67](https://github.com/portabletext/types/issues/67)) ([e75e44d](https://github.com/portabletext/types/commit/e75e44d1c6b8657ffc54f33304afa09c5948d956))
 
 ## [2.0.11](https://github.com/portabletext/types/compare/v2.0.10...v2.0.11) (2024-03-20)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @sanity/pkg-utils to ^5.1.4 ([#65](https://github.com/portabletext/types/issues/65)) ([fc74584](https://github.com/portabletext/types/commit/fc74584c630b4ba61c09d063205c48d50dd97144))
+- **deps:** update dependency @sanity/pkg-utils to ^5.1.4 ([#65](https://github.com/portabletext/types/issues/65)) ([fc74584](https://github.com/portabletext/types/commit/fc74584c630b4ba61c09d063205c48d50dd97144))
 
 ## [2.0.10](https://github.com/portabletext/types/compare/v2.0.9...v2.0.10) (2024-03-18)
 
-
 ### Bug Fixes
 
-* **deps:** update non-major ([#61](https://github.com/portabletext/types/issues/61)) ([70f13e7](https://github.com/portabletext/types/commit/70f13e799a4ea54812f085ef7ab4f7b2cfe1580f))
+- **deps:** update non-major ([#61](https://github.com/portabletext/types/issues/61)) ([70f13e7](https://github.com/portabletext/types/commit/70f13e799a4ea54812f085ef7ab4f7b2cfe1580f))
 
 ## [2.0.9](https://github.com/portabletext/types/compare/v2.0.8...v2.0.9) (2024-03-16)
 
-
 ### Bug Fixes
 
-* update license year ([b96c2d2](https://github.com/portabletext/types/commit/b96c2d27986d564e8a8866ad2582623a0d718892))
+- update license year ([b96c2d2](https://github.com/portabletext/types/commit/b96c2d27986d564e8a8866ad2582623a0d718892))
 
 ## [2.0.8](https://github.com/portabletext/types/compare/v2.0.7...v2.0.8) (2023-10-10)
 
-
 ### Bug Fixes
 
-* **deps:** update dependency @sanity/pkg-utils to v3 ([#42](https://github.com/portabletext/types/issues/42)) ([a4547af](https://github.com/portabletext/types/commit/a4547af2a4bef4727ac836e9333a595a23f9b016))
+- **deps:** update dependency @sanity/pkg-utils to v3 ([#42](https://github.com/portabletext/types/issues/42)) ([a4547af](https://github.com/portabletext/types/commit/a4547af2a4bef4727ac836e9333a595a23f9b016))
 
 ## [2.0.7](https://github.com/portabletext/types/compare/v2.0.6...v2.0.7) (2023-09-28)
 
-
 ### Bug Fixes
 
-* **ci:** switch to release-please ([b13b11d](https://github.com/portabletext/types/commit/b13b11d163b594e25e1b5556a4b5456f1598d637))
+- **ci:** switch to release-please ([b13b11d](https://github.com/portabletext/types/commit/b13b11d163b594e25e1b5556a4b5456f1598d637))
 
 ## [2.0.6](https://github.com/portabletext/types/compare/v2.0.5...v2.0.6) (2023-08-23)
 
