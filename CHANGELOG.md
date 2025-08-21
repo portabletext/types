@@ -1,9 +1,4 @@
-<!-- markdownlint-disable --><!-- textlint-disable -->
-
-# 📓 Changelog
-
-All notable changes to this project will be documented in this file. See
-[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+# @portabletext/types
 
 ## [2.0.13](https://github.com/portabletext/types/compare/v2.0.12...v2.0.13) (2024-04-10)
 

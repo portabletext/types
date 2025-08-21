@@ -39,8 +39,8 @@
     "format": "prettier --write --cache --ignore-unknown .",
     "lint": "eslint . --ext .cjs,.js,.jsx,.mjs,.ts,.tsx",
     "node:test": "node test/test.js",
-    "prepare": "husky install",
     "prepublishOnly": "run-s build test",
+    "release": "changeset publish",
     "test": "run-s lint build node:test"
   },
   "commitlint": {
@@ -81,18 +81,15 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
+    "@changesets/changelog-github": "^0.5.1",
+    "@changesets/cli": "^2.29.6",
     "@sanity/pkg-utils": "6.10.1",
     "@types/babel__core": "^7.20.5",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-sanity": "^7.1.2",
-    "husky": "^8.0.3",
     "npm-run-all2": "^5.0.2",
     "prettier": "^3.3.2",
     "prettier-plugin-packagejson": "^2.5.0",
