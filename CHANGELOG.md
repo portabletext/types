@@ -1,5 +1,11 @@
 # @portabletext/types
 
+## 2.0.15
+
+### Patch Changes
+
+- [`69f55fa`](https://github.com/portabletext/types/commit/69f55fabd1a98643bf28909251507f5fd75e4be3) Thanks [@stipsan](https://github.com/stipsan)! - Update build deps
+
 ## 2.0.14
 
 ### Patch Changes
