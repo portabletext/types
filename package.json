@@ -78,7 +78,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.6",
-    "@sanity/pkg-utils": "6.10.1",
+    "@sanity/pkg-utils": "8.0.3",
     "@types/babel__core": "^7.20.5",
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
