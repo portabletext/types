@@ -36,20 +36,15 @@
   "scripts": {
     "build": "pkg-utils build --strict --check --clean",
     "docs:build": "typedoc",
-    "format": "prettier --write --cache --ignore-unknown .",
+    "format": "oxfmt .",
     "lint": "eslint . --ext .cjs,.js,.jsx,.mjs,.ts,.tsx",
     "node:test": "node test/test.js",
     "prepublishOnly": "run-s build test",
     "release": "changeset publish",
     "test": "run-s lint build node:test"
   },
-  "lint-staged": {
-    "*": [
-      "prettier --write --cache --ignore-unknown"
-    ]
-  },
+  "lint-staged": {"*": ["oxfmt"]},
   "browserslist": "extends @sanity/browserslist-config",
-  "prettier": "@sanity/prettier-config",
   "eslintConfig": {
     "parserOptions": {
       "ecmaFeatures": {
@@ -60,8 +55,7 @@
     },
     "extends": [
       "sanity",
-      "sanity/typescript",
-      "prettier"
+      "sanity/typescript"
     ],
     "ignorePatterns": [
       "dist/**/"
@@ -72,15 +66,13 @@
     "@changesets/cli": "^2.29.7",
     "@sanity/browserslist-config": "^1.0.5",
     "@sanity/pkg-utils": "^8.1.28",
-    "@sanity/prettier-config": "^2.0.1",
     "@types/babel__core": "^7.20.5",
     "@typescript-eslint/eslint-plugin": "^8.46.2",
     "@typescript-eslint/parser": "^8.46.2",
     "eslint": "^8.57.1",
-    "eslint-config-prettier": "^10.1.8",
     "eslint-config-sanity": "^7.1.4",
     "npm-run-all2": "^5.0.2",
-    "prettier": "^3.6.2",
+    "oxfmt": "^0.9.0",
     "typedoc": "^0.28.14",
     "typescript": "5.9.3"
   },
