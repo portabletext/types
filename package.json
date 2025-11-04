@@ -1,6 +1,6 @@
 {
   "name": "@portabletext/types",
-  "version": "2.0.15",
+  "version": "3.0.0",
   "description": "Shared TypeScript definitions for core Portable Text data structures",
   "keywords": [
     "portable-text"
