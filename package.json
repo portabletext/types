@@ -43,7 +43,11 @@
     "release": "changeset publish",
     "test": "run-s lint build node:test"
   },
-  "lint-staged": {"*": ["oxfmt"]},
+  "lint-staged": {
+    "*": [
+      "oxfmt"
+    ]
+  },
   "browserslist": "extends @sanity/browserslist-config",
   "eslintConfig": {
     "parserOptions": {
@@ -66,7 +70,6 @@
     "@changesets/cli": "^2.29.7",
     "@sanity/browserslist-config": "^1.0.5",
     "@sanity/pkg-utils": "^8.1.28",
-    "@types/babel__core": "^7.20.5",
     "@typescript-eslint/eslint-plugin": "^8.46.2",
     "@typescript-eslint/parser": "^8.46.2",
     "eslint": "^8.57.1",

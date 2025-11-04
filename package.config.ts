@@ -7,4 +7,5 @@ export default defineConfig({
       'tsdoc-undefined-tag': 'warn',
     },
   },
+  dts: 'rolldown',
 })
