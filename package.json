@@ -37,7 +37,7 @@
     "build": "pkg-utils build --strict --check --clean",
     "docs:build": "typedoc",
     "format": "oxfmt .",
-    "lint": "eslint . --ext .cjs,.js,.jsx,.mjs,.ts,.tsx",
+    "lint": "oxlint --deny-warnings --report-unused-disable-directives",
     "node:test": "node test/test.js",
     "prepublishOnly": "run-s build test",
     "release": "changeset publish",
@@ -49,33 +49,14 @@
     ]
   },
   "browserslist": "extends @sanity/browserslist-config",
-  "eslintConfig": {
-    "parserOptions": {
-      "ecmaFeatures": {
-        "modules": true
-      },
-      "ecmaVersion": 9,
-      "sourceType": "module"
-    },
-    "extends": [
-      "sanity",
-      "sanity/typescript"
-    ],
-    "ignorePatterns": [
-      "dist/**/"
-    ]
-  },
   "devDependencies": {
     "@changesets/changelog-github": "^0.5.1",
     "@changesets/cli": "^2.29.7",
     "@sanity/browserslist-config": "^1.0.5",
     "@sanity/pkg-utils": "^8.1.28",
-    "@typescript-eslint/eslint-plugin": "^8.46.2",
-    "@typescript-eslint/parser": "^8.46.2",
-    "eslint": "^8.57.1",
-    "eslint-config-sanity": "^7.1.4",
     "npm-run-all2": "^5.0.2",
     "oxfmt": "^0.9.0",
+    "oxlint": "^1.25.0",
     "typedoc": "^0.28.14",
     "typescript": "5.9.3"
   },
