@@ -1,4 +1,4 @@
-import {defineConfig} from '@sanity/pkg-utils'
+import { defineConfig } from '@sanity/pkg-utils'
 
 export default defineConfig({
   extract: {
@@ -7,5 +7,4 @@ export default defineConfig({
       'tsdoc-undefined-tag': 'warn',
     },
   },
-  dts: 'rolldown',
 })
