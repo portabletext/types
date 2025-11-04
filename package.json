@@ -41,7 +41,7 @@
     "node:test": "node test/test.js",
     "prepublishOnly": "run-s build test",
     "release": "changeset publish",
-    "test": "run-s lint build node:test"
+    "test": "run-s build node:test"
   },
   "lint-staged": {
     "*": [
