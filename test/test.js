@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import assert from "node:assert";
 
 import ptTypesCjs from "../dist/index.cjs";
