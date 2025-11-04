@@ -18,8 +18,8 @@ importers:
         specifier: ^1.0.5
         version: 1.0.5
       '@sanity/pkg-utils':
-        specifier: ^8.1.28
-        version: 8.1.28(@types/babel__core@7.20.5)(@types/node@20.12.4)(typescript@5.9.3)
+        specifier: ^8.1.29
+        version: 8.1.29(@types/babel__core@7.20.5)(@types/node@20.12.4)(typescript@5.9.3)
       npm-run-all2:
         specifier: ^8.0.4
         version: 8.0.4
@@ -690,8 +690,8 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/plugin-commonjs@28.0.9':
-    resolution: {integrity: sha512-PIR4/OHZ79romx0BVVll/PkwWpJ7e5lsqFa3gFfcrFPWwLXLV39JVUzQV9RKjWerE7B845Hqjj9VYlQeieZ2dA==}
+  '@rollup/plugin-commonjs@29.0.0':
+    resolution: {integrity: sha512-U2YHaxR2cU/yAiwKJtJRhnyLk7cifnQw0zUpISsocBDoHDJn+HTV74ABqnwr5bEgWUwFZC9oFL6wLe21lHu5eQ==}
     engines: {node: '>=16.0.0 || 14 >= 14.17'}
     peerDependencies:
       rollup: ^2.68.0||^3.0.0||^4.0.0
@@ -717,8 +717,8 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/plugin-replace@6.0.2':
-    resolution: {integrity: sha512-7QaYCf8bqF04dOy7w/eHmJeNExxTYwvKAmlSAH/EaWWUzbT0h5sbF6bktFoX/0F/0qwng5/dWFMyf3gzaM8DsQ==}
+  '@rollup/plugin-replace@6.0.3':
+    resolution: {integrity: sha512-J4RZarRvQAm5IF0/LwUUg+obsm+xZhYnbMXmXROyoSE1ATJe3oXSb9L5MMppdxP2ylNSjv6zFBwKYjcKMucVfA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -887,8 +887,8 @@ packages:
   '@sanity/browserslist-config@1.0.5':
     resolution: {integrity: sha512-so+/UtCge8t1jq509hH0otbbptRz0zM/Aa0dh5MhMD7HGT6n2igWIL2VWH/9QR9e77Jn3dJsjz23mW1WCxT+sg==}
 
-  '@sanity/pkg-utils@8.1.28':
-    resolution: {integrity: sha512-J1T/E5lXHlk6vguNf5cQi71SIZy+LvTM/2emI5fj3wusX9rgBC/qXezM/F9UtrX6I1rsSRIUa7Ti0wY6ln35uQ==}
+  '@sanity/pkg-utils@8.1.29':
+    resolution: {integrity: sha512-97Vo9YnYOp/hEYkE9zkI0Nj4NUm5EVo1DpRUcr6tf7jzO0u65yyventjcDSdbOFVsKmUFjMa1GrY5oKRn7Mi1Q==}
     engines: {node: '>=20.19 <22 || >=22.12'}
     hasBin: true
     peerDependencies:
@@ -1744,8 +1744,8 @@ packages:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
 
-  package-json-from-dist@1.0.0:
-    resolution: {integrity: sha512-dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==}
+  package-json-from-dist@1.0.1:
+    resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
 
   package-manager-detector@0.2.11:
     resolution: {integrity: sha512-BEnLolu+yuz22S56CU1SUKq3XC3PkwD5wv4ikR4MfGvnRVcmzXR9DwSlW2fEamyTPyXHomBJRzgapeuBvRNzJQ==}
@@ -1913,13 +1913,13 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  rimraf@6.0.1:
-    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
+  rimraf@6.1.0:
+    resolution: {integrity: sha512-DxdlA1bdNzkZK7JiNWH+BAx1x4tEJWoTofIopFo6qWUU94jYrFZ0ubY05TqH3nWPJ1nKa1JWVFDINZ3fnrle/A==}
     engines: {node: 20 || >=22}
     hasBin: true
 
-  rolldown-plugin-dts@0.17.2:
-    resolution: {integrity: sha512-tbLm7FoDvZAhAY33wJbq0ACw+srToKZ5xFqwn/K4tayGloZPXQHyOEPEYi7whEfTCaMndZWaho9+oiQTlwIe6Q==}
+  rolldown-plugin-dts@0.17.3:
+    resolution: {integrity: sha512-8mGnNUVNrqEdTnrlcaDxs4sAZg0No6njO+FuhQd4L56nUbJO1tHxOoKDH3mmMJg7f/BhEj/1KjU5W9kZ9zM/kQ==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       '@ts-macro/tsc': ^0.3.6
@@ -2928,7 +2928,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@rollup/plugin-commonjs@28.0.9(rollup@4.52.5)':
+  '@rollup/plugin-commonjs@29.0.0(rollup@4.52.5)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.52.5)
       commondir: 1.0.1
@@ -2956,7 +2956,7 @@ snapshots:
     optionalDependencies:
       rollup: 4.52.5
 
-  '@rollup/plugin-replace@6.0.2(rollup@4.52.5)':
+  '@rollup/plugin-replace@6.0.3(rollup@4.52.5)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.52.5)
       magic-string: 0.30.21
@@ -3086,7 +3086,7 @@ snapshots:
 
   '@sanity/browserslist-config@1.0.5': {}
 
-  '@sanity/pkg-utils@8.1.28(@types/babel__core@7.20.5)(@types/node@20.12.4)(typescript@5.9.3)':
+  '@sanity/pkg-utils@8.1.29(@types/babel__core@7.20.5)(@types/node@20.12.4)(typescript@5.9.3)':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/parser': 7.28.5
@@ -3097,10 +3097,10 @@ snapshots:
       '@optimize-lodash/rollup-plugin': 5.0.2(rollup@4.52.5)
       '@rollup/plugin-alias': 5.1.1(rollup@4.52.5)
       '@rollup/plugin-babel': 6.1.0(@babel/core@7.28.5)(@types/babel__core@7.20.5)(rollup@4.52.5)
-      '@rollup/plugin-commonjs': 28.0.9(rollup@4.52.5)
+      '@rollup/plugin-commonjs': 29.0.0(rollup@4.52.5)
       '@rollup/plugin-json': 6.1.0(rollup@4.52.5)
       '@rollup/plugin-node-resolve': 16.0.3(rollup@4.52.5)
-      '@rollup/plugin-replace': 6.0.2(rollup@4.52.5)
+      '@rollup/plugin-replace': 6.0.3(rollup@4.52.5)
       '@rollup/plugin-terser': 0.4.4(rollup@4.52.5)
       '@sanity/browserslist-config': 1.0.5
       '@vanilla-extract/rollup-plugin': 1.4.1(rollup@4.52.5)
@@ -3122,9 +3122,9 @@ snapshots:
       pretty-bytes: 7.1.0
       prompts: 2.4.2
       recast: 0.23.11
-      rimraf: 6.0.1
+      rimraf: 6.1.0
       rolldown: 1.0.0-beta.45
-      rolldown-plugin-dts: 0.17.2(rolldown@1.0.0-beta.45)(typescript@5.9.3)
+      rolldown-plugin-dts: 0.17.3(rolldown@1.0.0-beta.45)(typescript@5.9.3)
       rollup: 4.52.5
       rollup-plugin-esbuild: 6.2.1(esbuild@0.25.12)(rollup@4.52.5)
       rxjs: 7.8.2
@@ -3609,7 +3609,7 @@ snapshots:
       jackspeak: 4.1.1
       minimatch: 10.0.3
       minipass: 7.1.2
-      package-json-from-dist: 1.0.0
+      package-json-from-dist: 1.0.1
       path-scurry: 2.0.0
 
   globby@11.1.0:
@@ -3949,7 +3949,7 @@ snapshots:
 
   p-try@2.2.0: {}
 
-  package-json-from-dist@1.0.0: {}
+  package-json-from-dist@1.0.1: {}
 
   package-manager-detector@0.2.11:
     dependencies:
@@ -4100,12 +4100,12 @@ snapshots:
 
   reusify@1.0.4: {}
 
-  rimraf@6.0.1:
+  rimraf@6.1.0:
     dependencies:
       glob: 11.0.3
-      package-json-from-dist: 1.0.0
+      package-json-from-dist: 1.0.1
 
-  rolldown-plugin-dts@0.17.2(rolldown@1.0.0-beta.45)(typescript@5.9.3):
+  rolldown-plugin-dts@0.17.3(rolldown@1.0.0-beta.45)(typescript@5.9.3):
     dependencies:
       '@babel/generator': 7.28.5
       '@babel/parser': 7.28.5
