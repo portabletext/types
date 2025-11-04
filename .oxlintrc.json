@@ -6,6 +6,10 @@
     "docs/**",
     ".nyc_output/**"
   ],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
   "rules": {
     "no-console": "error"
   },
