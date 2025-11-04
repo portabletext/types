@@ -1,5 +1,13 @@
 # @portabletext/types
 
+## 3.0.0
+
+### Major Changes
+
+- [#100](https://github.com/portabletext/types/pull/100) [`0cfdaec`](https://github.com/portabletext/types/commit/0cfdaec5041683a27d78fac782ff616512de9161) Thanks [@stipsan](https://github.com/stipsan)! - Support for node versions older than v20.19 dropped
+
+- [#100](https://github.com/portabletext/types/pull/100) [`0cfdaec`](https://github.com/portabletext/types/commit/0cfdaec5041683a27d78fac782ff616512de9161) Thanks [@stipsan](https://github.com/stipsan)! - CJS exports removed
+
 ## 2.0.15
 
 ### Patch Changes
