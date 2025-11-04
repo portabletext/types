@@ -1,2 +1,3 @@
-export * from './portableText.js'
-export * from './related.js'
+export * from './portableText'
+export * from './related'
+

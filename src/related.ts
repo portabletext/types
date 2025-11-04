@@ -22,6 +22,5 @@ export interface TypedObject {
  * @public
  */
 export type ArbitraryTypedObject = TypedObject & {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [key: string]: any
 }
