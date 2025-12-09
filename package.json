@@ -31,7 +31,7 @@
     "build": "tsdown",
     "docs:build": "typedoc",
     "format": "oxfmt .",
-    "lint": "oxlint --deny-warnings --report-unused-disable-directives",
+    "lint": "oxlint --type-aware --type-check --deny-warnings --report-unused-disable-directives",
     "node:test": "node test/test.js",
     "prepublishOnly": "pnpm run build && pnpm run test",
     "release": "changeset publish",
@@ -50,6 +50,7 @@
     "@sanity/tsdown-config": "^0.4.0",
     "oxfmt": "^0.17.0",
     "oxlint": "^1.32.0",
+    "oxlint-tsgolint": "^0.8.4",
     "tsdown": "^0.17.2",
     "typedoc": "^0.28.15",
     "typescript": "5.9.3"
