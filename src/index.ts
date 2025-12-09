@@ -1,2 +1,2 @@
-export * from './portableText'
-export * from './related'
+export * from './portableText.ts'
+export * from './related.ts'

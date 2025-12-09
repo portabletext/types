@@ -1,4 +1,4 @@
-import type {ArbitraryTypedObject, TypedObject} from './related'
+import type {ArbitraryTypedObject, TypedObject} from './related.ts'
 
 /**
  * A Portable Text Block can be thought of as one paragraph, quote or list item.
