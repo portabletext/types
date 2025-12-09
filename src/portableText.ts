@@ -23,7 +23,7 @@ export interface PortableTextBlock<
    *
    * Usually 'block', but can be customized to other values
    */
-  _type: 'block' | string
+  _type: 'block' | (string & {})
 
   /**
    * A key that identifies this block uniquely within the parent array. Used to more easily address
@@ -94,13 +94,13 @@ export type PortableTextBlockStyle =
   | 'h4'
   | 'h5'
   | 'h6'
-  | string
+  | (string & {})
 
 /**
  * A set of _common_ (but not required/standardized) list item types
  * @public
  */
-export type PortableTextListItemType = 'bullet' | 'number' | string
+export type PortableTextListItemType = 'bullet' | 'number' | (string & {})
 
 /**
  * A mark definition holds information for marked text. For instance, a text span could reference
