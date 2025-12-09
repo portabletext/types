@@ -4,5 +4,6 @@
   "semi": false,
   "singleQuote": true,
   "bracketSpacing": false,
+  "experimentalSortImports": {},
   "ignorePatterns": ["dist/**", "docs/**", "pnpm-lock.yaml", ".changeset/*.md"]
 }
