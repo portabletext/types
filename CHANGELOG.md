@@ -1,5 +1,11 @@
 # @portabletext/types
 
+## 3.0.1
+
+### Patch Changes
+
+- [`0dc9003`](https://github.com/portabletext/types/commit/0dc90032623fa28f378bcc298cb55483e029dab5) Thanks [@stipsan](https://github.com/stipsan)! - Remove `source` exports condition, and src folder
+
 ## 3.0.0
 
 ### Major Changes
