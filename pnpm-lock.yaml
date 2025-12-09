@@ -26,9 +26,6 @@ importers:
       oxlint:
         specifier: ^1.32.0
         version: 1.32.0(oxlint-tsgolint@0.8.4)
-      oxlint-tsgolint:
-        specifier: ^0.8.4
-        version: 0.8.4
       tsdown:
         specifier: ^0.17.2
         version: 0.17.2(publint@0.3.15)(typescript@5.9.3)
@@ -1643,6 +1640,7 @@ snapshots:
       '@oxlint-tsgolint/linux-x64': 0.8.4
       '@oxlint-tsgolint/win32-arm64': 0.8.4
       '@oxlint-tsgolint/win32-x64': 0.8.4
+    optional: true
 
   oxlint@1.32.0(oxlint-tsgolint@0.8.4):
     optionalDependencies:
