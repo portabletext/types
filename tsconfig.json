@@ -3,6 +3,6 @@
   "exclude": ["docs", "dist", "node_modules", "test"],
   "compilerOptions": {
     "rootDir": ".",
-    "outDir": "dist"
-  }
+    "outDir": "dist",
+  },
 }
