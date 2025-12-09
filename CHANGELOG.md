@@ -1,5 +1,11 @@
 # @portabletext/types
 
+## 4.0.0
+
+### Major Changes
+
+- [#115](https://github.com/portabletext/types/pull/115) [`c88ea44`](https://github.com/portabletext/types/commit/c88ea44a9fb7b2e83c649338963ba25f965f4c9b) Thanks [@stipsan](https://github.com/stipsan)! - use `(string & {})` instead of `string` in string literal unions
+
 ## 3.0.1
 
 ### Patch Changes
