@@ -1,6 +1,6 @@
+import * as ptTypes from '@portabletext/types'
 import assert from 'node:assert'
 import {createRequire} from 'node:module'
-import * as ptTypes from '@portabletext/types'
 
 const require = createRequire(import.meta.url)
 
