@@ -13,15 +13,15 @@
     "type": "git",
     "url": "git+ssh://git@github.com/portabletext/types.git"
   },
-  "license": "MIT",
   "author": "Sanity.io <hello@sanity.io>",
+  "license": "MIT",
   "sideEffects": false,
   "type": "module",
+  "main": "./dist/index.js",
   "exports": {
     ".": "./src/index.ts",
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
