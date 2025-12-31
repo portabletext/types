@@ -1,5 +1,11 @@
 # @portabletext/types
 
+## 4.0.1
+
+### Patch Changes
+
+- [#121](https://github.com/portabletext/types/pull/121) [`9c066df`](https://github.com/portabletext/types/commit/9c066df78beb116bf714fd11d7a94807aaf2aff1) Thanks [@renovate](https://github.com/apps/renovate)! - update LICENSE year
+
 ## 4.0.0
 
 ### Major Changes
