@@ -1,5 +1,11 @@
 # @portabletext/types
 
+## 4.0.2
+
+### Patch Changes
+
+- [#128](https://github.com/portabletext/types/pull/128) [`0d83ff8`](https://github.com/portabletext/types/commit/0d83ff8ef9c426c5ec03892366df5e635357de56) Thanks [@renovate](https://github.com/apps/renovate)! - fix(deps): update non-major
+
 ## 4.0.1
 
 ### Patch Changes
