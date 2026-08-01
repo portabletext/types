@@ -54,7 +54,7 @@
     "oxlint-tsgolint": "^0.16.0",
     "tsdown": "^0.20.3",
     "typedoc": "^0.28.17",
-    "typescript": "5.9.3"
+    "typescript": "6.0.3"
   },
   "lint-staged": {
     "*": [
