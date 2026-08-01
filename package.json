@@ -51,7 +51,7 @@
     "@sanity/tsdown-config": "^0.5.8",
     "oxfmt": "^0.36.0",
     "oxlint": "^1.51.0",
-    "oxlint-tsgolint": "^0.16.0",
+    "oxlint-tsgolint": "^7.0.2001",
     "tsdown": "^0.20.3",
     "typedoc": "^0.28.17",
     "typescript": "5.9.3"
