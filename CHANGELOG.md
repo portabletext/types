@@ -1,5 +1,13 @@
 # @portabletext/types
 
+## 4.0.3
+
+### Patch Changes
+
+- [#148](https://github.com/portabletext/types/pull/148) [`6d98ad7`](https://github.com/portabletext/types/commit/6d98ad76d508a77d49cc38238f49cf303014c280) Thanks [@stipsan](https://github.com/stipsan)! - Update build tooling and dependencies, including TypeScript 7 and tsdown.
+
+- [#147](https://github.com/portabletext/types/pull/147) [`64a1a3a`](https://github.com/portabletext/types/commit/64a1a3a00a3fd974e4f33c65db97f75bf033f89b) Thanks [@stipsan](https://github.com/stipsan)! - Drop the legacy `main` and `module` fields from `package.json`. The ESM `exports` map is unchanged.
+
 ## 4.0.2
 
 ### Patch Changes
