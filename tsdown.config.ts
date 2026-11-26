@@ -1,7 +1,7 @@
 import {defineConfig} from '@sanity/tsdown-config'
 import type {UserConfig} from 'tsdown'
 
-const config: UserConfig = defineConfig({
+const config: Promise<UserConfig> = defineConfig({
   tsconfig: './tsconfig.dist.json',
 })
 
