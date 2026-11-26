@@ -1,5 +1,11 @@
 # @portabletext/types
 
+## 4.0.3
+
+### Patch Changes
+
+- [#148](https://github.com/portabletext/types/pull/148) [`6d98ad7`](https://github.com/portabletext/types/commit/6d98ad76d508a77d49cc38238f49cf303014c280) Thanks [@stipsan](https://github.com/stipsan)! - Update build tooling and dependencies, including TypeScript 7 and tsdown.
+
 ## 4.0.2
 
 ### Patch Changes
